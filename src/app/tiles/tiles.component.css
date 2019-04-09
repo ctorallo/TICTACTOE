@@ -1,0 +1,9 @@
+td{
+ border: 1px solid #ccc!important;
+ width: 150px;
+ height: 150px;
+}
+table{
+    display: inline;
+    margin-left: 10%;
+}

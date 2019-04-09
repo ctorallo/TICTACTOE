@@ -1,0 +1,11 @@
+.menudiv{
+    display: inline;
+    text-align: center;
+    /* border: 1px solid #ccc!important; */
+    margin-left: 5%;
+    position: relative;
+}
+button{
+    height: 100px;
+    width: 200px;
+}

@@ -1,11 +1,11 @@
 td{
     border: solid 5px black;
-    width:  100px;
-    height: 100px;
+    width:  130px;
+    height: 130px;
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-position: right 0px;
-    background-image: url("../../assets/images/O.png");
+    /* background-image: url("../../assets/images/O.png"); */
 }
 
 table{

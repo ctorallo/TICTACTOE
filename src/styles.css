@@ -5,3 +5,40 @@
       background-size: 100% 100%;
       background-position: top center;
   }
+
+  .menuDiv{
+    display: inline;
+    text-align: center;
+    /* border: 1px solid #ccc!important;  */
+    height: 100%;
+    /* width: auto; */
+    float: right;
+    margin-right: 20%;
+    user-select: none;
+}
+
+.buttonDiv{
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10%;
+    border-style: groove;
+    border-radius: 20px;
+    background-color: #3cdef6;
+    display:inline-block;
+    font-weight: bold;
+    text-align: center;
+    transition: all .2s ease-in-out; 
+    user-select: none; 
+}
+
+.buttonDiv:hover{
+    cursor:pointer;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
+    user-select: none;
+}
+
+.buttonDiv:focus{
+    outline:0;
+}

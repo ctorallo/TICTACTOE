@@ -1,5 +1,5 @@
 .modal {
-    display: none; /* Hidden by default */
+    /* display: none;  */
     position: fixed; /* Stay in place */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -19,4 +19,10 @@
     padding: 20px;
     width: 80%;
     font-size:2em;
+}
+
+.center{
+    text-align:center;
+    margin: auto;
+    padding: .4em;
 }

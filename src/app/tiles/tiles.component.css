@@ -1,9 +1,21 @@
 td{
- border: 1px solid #ccc!important;
- width: 150px;
- height: 150px;
+    border: solid 5px black;
+    width:  100px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: right 0px;
+    background-image: url("../../assets/images/O.png");
 }
+
 table{
     display: inline;
-    margin-left: 10%;
+    margin-left: 20%;
+}
+
+td:hover
+{
+    cursor:pointer;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
 }
